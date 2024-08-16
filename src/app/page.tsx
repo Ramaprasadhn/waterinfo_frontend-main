@@ -215,7 +215,7 @@ const App: React.FC = () => {
     try {
       // Post data to the server
       const response = await axios.post(
-        "https://waterinfowebapp.azurewebsites.net/WaterInfolist",
+        "https://waterinfowebapp.azurewebsites.net/WaterInfolist", 
         formattedData
       );
 
